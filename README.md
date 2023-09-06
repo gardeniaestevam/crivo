@@ -1,5 +1,5 @@
 # Crivo de Eratóstenes 🥨
-Projeto feito para obtenção de nota para a disciplina de Inteligência Artificial.
+Projeto feito para obtenção de nota para a disciplina de Programação Concorrente.
 
 ### Problema 🧩
 Eratóstenes foi um dos bibliotecários-chefe da Biblioteca de Alexandria que desenvolveu um algoritmo para encontrar números primos até um dado número n, tal algoritmo ficou conhecido como Crivo de Eratóstenes.
@@ -32,7 +32,7 @@ Arquivo   | Conteúdo
 :---------: | :------:
 crivoSERIAL.c | Algoritmo que usa o método sequencial
 crivoPARALELO.c | Algoritmo paralelizado usando threads e a biblioteca MP
-crivoMPI | Algoritmo paralelizado usando MPI
+crivoMPI.c | Algoritmo paralelizado usando MPI
 
 ### Autores 👥
 * Gardênia Estevam
