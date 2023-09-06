@@ -4,7 +4,7 @@ Projeto feito para obtenção de nota para a disciplina de Inteligência Artific
 ### Problema 🧩
 Eratóstenes foi um dos bibliotecários-chefe da Biblioteca de Alexandria que desenvolveu um algoritmo para encontrar números primos até um dado número n, tal algoritmo ficou conhecido como Crivo de Eratóstenes.
 
-### Algoritmo 💻
+### Algoritmo ⚙️
 Dada um número inteiro n, o algoritmo cria uma lista com todos os valores de 1 até o valor limite n, remove da lista todos os números múltiplos de 2, procura o próximo valor primo e remove todos os múltiplos dele que estão presentes na lista e repete o processo até sobrar somente valores primos.
 
 ### Solução Proposta 💡
@@ -38,8 +38,8 @@ crivoMPI | Algoritmo paralelizado usando MPI
 * Gardênia Estevam
 * Pedro Henrique Lopes
 
-### Hardware e Software
-#### Máquina 1
+### Hardware e Software 💻
+#### Máquina 1 🖥️
 Hardware/Software   | Modelo
 :---------: | :------:
 CPU | Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, 1800 Mhz, 4 Núcleo(s), 8 Processador(es) Lógico(s)
@@ -49,7 +49,7 @@ Linguagem de Programação | C
 Compilador | MinGW-W64-builds-4.3.5
 MPI | MPI 4.1.1 https://www.microsoft.com/en-us/download/details.aspx?id=54607
 
-#### Máquina 2
+#### Máquina 2 🖥️
 Hardware/Software   | Modelo
 :---------: | :------:
 CPU | Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, 1992 Mhz, 4 Núcleo(s), 8 Processador(es) Lógico(s)
@@ -59,8 +59,8 @@ Linguagem de Programação | C
 Compilador | MinGW-W64-builds-4.3.5
 MPI | MPI 4.1.1 https://www.microsoft.com/en-us/download/details.aspx?id=54607
 
-### Análise de Desempenho
-#### Máquina 1
+### Análise de Desempenho 📈
+#### Máquina 1 🖥️
 Método | Nº de elementos | Tempo(segundos) | Speedup | Comentários
 :----: | :-------------: | :-------------: | :-----: | :----------:
 Sequencial | 10.000.000 | 1,606 | - | Existem 664579 números primos menores que 10000000 
@@ -70,7 +70,7 @@ OpenMP | 100.000.000 | 11,534 | 3,08x | Existem 5761455 números primos menores 
 MPI | 10.000.000 | 0,049 | 32,77x | Existem 664579 números primos menores que 10000000
 MPI | 100.000.000 | 0,818 | 43,54x | Existem 5761455 números primos menores que 100000000
 
-#### Máquina 2
+#### Máquina 2 🖥️
 Método | Nº de elementos | Tempo(segundos) | Speedup | Comentários
 :----: | :-------------: | :-------------: | :-----: | :----------:
 Sequencial | 10.000.000 | 1,70 | - | Existem 664579 números primos menores que 10000000 
